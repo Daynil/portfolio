@@ -106,3 +106,36 @@
     left: 25%;
     width: 50%;
 }
+
+#portfolio-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #2B252C;
+}
+
+#portfolio-link h1 {
+    margin-top: 8%;
+}
+
+#glow-link > .glow {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: all 0.5s;
+}
+
+#glow-link:hover > .glow {
+    color: #D4A508;
+}
+
+#portfolio-link #subtitle {
+    font-size: 20px;
+    padding: 20px 0px 20px 0px;
+}
+
+#top-row {
+    padding-bottom: 15px;
+}
+
+
