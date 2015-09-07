@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial scale=1.0">
     <link type="text/css" rel="stylesheet" href="styles.css"/>
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="script.js"></script>
 	<title>Goldenbot Studios</title>
@@ -22,8 +23,8 @@
         <!-- NAV -->
         <div class="nav">
             <a href="#portfolio-link" class="top-nav">Portfolio</a>
-            <a href="#" class="top-nav">About</a>
-            <a href="#" class="top-nav">Contact</a>
+            <a href="#about-me-link" class="top-nav">About</a>
+            <a href="#contact-link" class="top-nav">Contact</a>
         </div>
 
         <!-- MAIN BODY -->	
@@ -34,68 +35,104 @@
             <a href="#portfolio-link"><span>My work</span></a>
         </div>
 
-        <div class="portfolio" id="portfolio-link">
-            <h1 id="glow-link"><span class="glow">Hi, I'm </span>Danny<span class="glow">, a full-stack javascript web developer.</span></h1>
-            <p id="subtitle">I enjoy making useful and intuitive websites with an emphasis on speed. <br>
-                Here is some of my recent work: </p>
-            <div class="row" id="top-row">
-                <div class="col-md-4">
-                    <a href="#" class="thumbnail">
-                        <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
-                        <div class="caption">
-                            <h3 class="text-center">Project 1</h3>
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                        </div>
-                    </a>
+        <div id="portfolio-link">
+            <div class="container portfolio">
+                <h1 id="glow-link"><span class="glow">Hi, I'm </span><a id="me-link" href="#about-me-link">Danny</a>
+                    <span class="glow">, a full-stack javascript web developer.</span></h1>
+                <p id="subtitle">I enjoy making useful and intuitive websites with an emphasis on speed. <br>
+                    Here is some of my recent work: </p>
+                <div class="row" id="top-row">
+                    <div class="col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
+                            <div class="caption">
+                                <h3 class="text-center">Project 1</h3>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
+                            <div class="caption">
+                                <h3 class="text-center">Project 2</h3>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#" class="thumbnail">
+                            <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
+                            <div class="caption">
+                                <h3 class="text-center">Project 3</h3>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-md-4">
-                    <a href="#" class="thumbnail">
-                        <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
-                        <div class="caption">
-                            <h3 class="text-center">Project 2</h3>
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                    <div class="row" id="bottom-row">
+                        <div class="col-md-4">
+                            <a href="#" class="thumbnail">
+                                <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
+                                <div class="caption">
+                                    <h3 class="text-center">Project 4</h3>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" class="thumbnail">
-                        <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
-                        <div class="caption">
-                            <h3 class="text-center">Project 3</h3>
-                            <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                        <div class="col-md-4">
+                            <a href="#" class="thumbnail">
+                                <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
+                                <div class="caption">
+                                    <h3 class="text-center">Project 5</h3>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                                </div>
+                            </a>
                         </div>
-                    </a>
+                                <div class="col-md-4">
+                            <a href="#" class="thumbnail">
+                                <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
+                                <div class="caption">
+                                    <h3 class="text-center">Project 6</h3>
+                                    <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div id="about-me-link">
+            <div id="about-me" class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>Real-world applications should be intuitive, clean, fun to use and provide value
+                            to everyday users. That's what I strive for in every project I develop. I enjoy learning
+                        new technologies and experimenting with the cutting-edge.</p>
+                        <p id="skills">I specialize in full-stack javascript projects leveraging
+                            NodeJS, AngularJS and ExpressJS. I'm proficient with many front-end technologies, 
+                        including HTML, CSS, JQuery and Bootstrap.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="me" src="http://i.imgur.com/XTFpAhc.jpg">
+                    </div>
                 </div>
             </div>
-                <div class="row" id="bottom-row">
-                    <div class="col-md-4">
-                        <a href="#" class="thumbnail">
-                            <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
-                            <div class="caption">
-                                <h3 class="text-center">Project 4</h3>
-                                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#" class="thumbnail">
-                            <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
-                            <div class="caption">
-                                <h3 class="text-center">Project 5</h3>
-                                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                            </div>
-                        </a>
-                    </div>
-                            <div class="col-md-4">
-                        <a href="#" class="thumbnail">
-                            <img src="http://i.imgur.com/GpamtF4.png" alt="project1" id="project1"></a>
-                            <div class="caption">
-                                <h3 class="text-center">Project 6</h3>
-                                <p class="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <div class="container">
+                <img class="img-responsive" id="me-big" src="http://i.imgur.com/wvHPgyv.jpg">
+            </div>
+        </div>
+
+        <div id="contact-link">
+            <h3 id="contact-text">Want to work with me? I'm happy to hear from you!</h4>
+            <div id="contact-icons">
+                <a href="#" id="git"><i class="fa fa-github-square fa-3x"></i></a>
+                <a href="#"><i class="fa fa-envelope-square fa-3x"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square fa-3x"></i></a>
+            </div>
+            <div>
+                <p>© Goldenbot Studios 2015. All rights reserved.</p>
+            </div>
         </div>
 
     </div>
